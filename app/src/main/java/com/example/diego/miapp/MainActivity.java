@@ -29,13 +29,13 @@ public class MainActivity extends AppCompatActivity
         int b=2;
         Log.d("b: ",String.valueOf(b));
         int c= a+b;
-        //Log.d("c: ",String.valueOf(c));
+        Log.d("c: ",String.valueOf(c));
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Comprobando que funciona nuestro control de versiones", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
